@@ -1,0 +1,502 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    order: 1; /* Places the logo on the left */
+    margin:0 0 0 4rem;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+nav {
+    order: 2; /* Places the nav links to the right of the logo */
+    display: flex;
+    align-items: center;
+    margin:0 0 0 4rem;
+}
+
+.nav-link {
+    color: rgb(224, 180, 47);
+    text-decoration: none;
+    padding: 20px;
+}
+
+.header-content {
+    /* background-color: #f0f0f0; */
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp8930684.jpg&f=1&nofb=1&ipt=e50c112e7043017ce58dd6fba4ee54e81231acc1a978a8105606a1b9c709b489&ipo=images);
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    height:710px;
+}
+
+.text-content {
+    margin-bottom: 20px;
+    display: flex;
+    margin:8rem 4rem 0 4rem;
+}
+
+.text-content-div b{
+    color: rgb(255, 157, 0);
+    font-size:1.1rem;
+    text-transform: uppercase;
+    margin-top:20px;
+}
+
+.text-content-div h1{
+    color: white;
+    font-size:4rem;
+}
+
+.text-content-div p{
+    color: white;
+    font-size:1.5rem;
+}
+
+
+.slide-buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.primary-btn1 {
+    background-color: rgb(233, 152, 2);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    height:3rem;
+    width:8rem;
+    margin:0 0 0 4rem;
+}
+
+.primary-btn2 {
+    background-color: rgb(245, 229, 202);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    height:3rem;
+    width:8rem;
+    margin:0 4rem 0 0;
+}
+
+#secondary-btn1{
+    margin-top:6rem;
+}
+
+.secondary-btn {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    height:2rem;
+    margin:2rem 0 0 29rem;
+    width:4rem;
+}
+
+
+/* section1 */
+
+.main-div1{
+    display: flex;
+    background-color: #ffffff;
+    height:45rem;
+}
+
+.main-div1-flex1{
+    margin-top:6rem;
+}
+
+.main-div1-heading{
+    font-size:2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(255, 128, 0);
+    margin-right:2rem;
+}
+
+.main-div1-para{
+    margin-top:2rem;
+    margin-right:4rem;
+    color: black;
+}
+
+.main-div1-btn{
+    height:3rem;
+    width:8rem;
+    font-size:1rem;
+    color:#ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(255, 128, 0);
+    cursor: pointer;
+}
+
+.main-div1-flex1-image{
+    flex-direction: column-reverse;
+    margin:6rem 4rem 0 4rem;
+}
+
+.main-div1-image{
+    height:30rem;
+    width:40rem;
+    margin-left:2rem;
+}
+
+.main-div1-para{
+    flex-direction: column;
+    font-size:1.2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height:1.6rem;
+    margin-right:4rem;
+}
+
+/* section2 */
+
+.main-div2{
+    display: flex;
+    background-color: #cbeff6;
+    height:45rem;
+}
+
+.main-div2-flex2{
+    margin-top:12rem;
+}
+
+.main-div2-heading{
+    font-size:2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(255, 128, 0);
+    margin-left:6rem;
+}
+
+.main-div2-para{
+    margin-top:2rem;
+    margin-left:6rem;
+    color: black;
+}
+
+.main-div2-btn{
+    height:3rem;
+    width:8rem;
+    font-size:0.9rem;
+    color:#ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(255, 128, 0);
+    cursor: pointer;
+    margin-left:6rem;
+}
+
+.main-div2-flex2-image{
+    flex-direction: column-reverse;
+    margin:6rem 4rem 0 4rem;
+}
+
+.main-div2-image{
+    height:30rem;
+    width:40rem;
+    margin-left:2rem;
+}
+
+.main-div2-para{
+    flex-direction: column;
+    font-size:1.2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height:1.6rem;
+    margin-right:4rem;
+}
+
+/* section 3 */
+.intro-text{
+    text-align: center;
+    font-size:1.3rem;
+    text-transform: uppercase;
+}
+
+.popular-boxes1{
+    display: flex;
+    justify-content: center;
+} 
+
+.popular-boxes2{
+    display: flex;
+    justify-content: center;
+} 
+
+.popular-boxes{
+    padding:3rem;
+    margin:1rem;
+    width:auto;
+    height:6rem;
+    border-radius:20px;
+    background-color:#d8d8d8;
+}
+
+.popular-boxes img{
+    height:6rem;
+    width:10rem;
+    mix-blend-mode: multiply;
+}
+
+.popular-boxes p{
+    position: relative;
+    bottom:1rem;
+    left:2rem;
+}
+
+
+/* section 4 */
+
+.section-heading{
+    text-align: center;
+    color:#ff9900;
+    font-size:2rem;
+}
+
+.course-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top:4rem;
+}
+
+.course-box {
+    width: 22%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.course-box img {
+    width: 80%;
+    height: auto;
+}
+
+.course-title {
+    margin: 0.5em 0;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    margin: 0.5em 0;
+}
+
+.star {
+    font-size: 24px;
+    cursor: pointer;
+    color: #ddd;
+}
+
+.star.selected {
+    color: gold;
+}
+
+.interaction-section, .beginner-section {
+    text-align: center;
+    margin: 1em 0;
+}
+
+#login-prompt {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+}
+
+.enroll-button {
+    background-color: #ff8f33; /* Light Blue Color */
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.enroll-button:hover {
+    background-color: #4682B4; /* Darker Blue on Hover */
+    transform: scale(1.05);
+}
+
+.enroll-button:focus {
+    outline: none;
+}
+
+.enroll-button:active {
+    background-color: #4169E1; /* Even Darker Blue when Clicked */
+}
+
+.all-course{
+    padding:1rem 1rem 1rem 1rem;
+    text-align: center;
+}
+
+.all-course button{
+    height:3rem;
+    width:7rem;
+    background-color: #ff8f33;
+    color: white;
+}
+
+/* footer  */
+#footer {
+    background-color: #09104d;
+    color: #fff;
+    padding: 40px 0;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-section {
+    width: 30%;
+}
+
+.footer-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #007BFF;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contact-item img {
+    width:2rem;
+    height: 2rem;
+    margin-right: 10px;
+    border-radius:50%;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter input {
+    padding:1rem 8rem 1rem 0;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    right:5.5rem;
+    transition: background-color 0.3s;
+}
+
+.newsletter button:hover {
+    background-color: #0056b3;
+}
+
+.fa-map-location{
+    font-size:2rem;
+}
+
+.fa-square-twitter{
+    font-size:2rem;
+    color:rgb(255, 144, 54);
+}
+
+.fa-facebook{
+    font-size: 2rem;
+    color:rgb(255, 144, 54);
+}
+
+.fa-youtube{
+    font-size: 2rem;
+    color:rgb(255, 144, 54);
+}
+
+.fa-linkedin{
+    font-size:2rem;
+    color:rgb(255, 144, 54);
+}

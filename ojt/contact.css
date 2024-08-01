@@ -1,0 +1,245 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background-color: #ffffff;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    order: 1; /* Places the logo on the left */
+    margin:0 0 0 4rem;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+nav {
+    order: 2; /* Places the nav links to the right of the logo */
+    display: flex;
+    align-items: center;
+    margin:0 0 0 4rem;
+}
+
+.nav-link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 20px;
+}
+
+.nav-link:hover {
+    background-color: #555;
+}
+
+
+.header-content {
+    /* background-color: #f0f0f0; */
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp8930684.jpg&f=1&nofb=1&ipt=e50c112e7043017ce58dd6fba4ee54e81231acc1a978a8105606a1b9c709b489&ipo=images);
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    height:710px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h2{
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    background: #fff;
+}
+
+.contact-info, .contact-form {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+}
+
+.contact-info h2, .contact-info h3 {
+    color: #ffffff;
+}
+
+.contact-info p {
+    color: #666;
+}
+
+.info-item {
+    margin-bottom: 20px;
+}
+
+.info-item img{
+    height:2rem;
+    width:2rem;
+}
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contact-form input, .contact-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background: #ff9900;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #e67e22;
+}
+
+/* footer  */
+#footer {
+    background-color: #09104d;
+    color: #fff;
+    padding: 40px 0;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-section {
+    width: 30%;
+}
+
+.footer-section h3 {
+    font-size: 1.5em;
+    margin-bottom:20px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #007BFF;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contact-item img {
+    width:2rem;
+    height: 2rem;
+    margin-right: 10px;
+    border-radius:50%;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter input {
+    padding:1rem 8rem 1rem 0;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    right:5.5rem;
+    transition: background-color 0.3s;
+}
+
+.newsletter button:hover {
+    background-color: #0056b3;
+}
+
+.fa-map-location{
+    font-size:2rem;
+}
+
+.fa-square-twitter{
+    font-size:2rem;
+    color:rgb(255, 144, 54);
+}
+
+.fa-facebook{
+    font-size: 2rem;
+    color:rgb(255, 144, 54);
+}
+
+.fa-youtube{
+    font-size: 2rem;
+    color:rgb(255, 144, 54);
+}
+
+.fa-linkedin{
+    font-size:2rem;
+    color:rgb(255, 144, 54);
+}
